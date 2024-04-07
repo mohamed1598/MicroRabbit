@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MicroRabbit.Infra.IOC
 {
-    public class DependecyContainer
+    public class DependencyContainer
     {
         public static void RegisterServices(IServiceCollection services)
         {
