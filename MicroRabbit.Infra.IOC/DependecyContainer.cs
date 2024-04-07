@@ -14,7 +14,7 @@ namespace MicroRabbit.Infra.IOC
         public static void RegisterServices(IServiceCollection services)
         {
             //domain bus
-            services.AddTransient<IEventBus,RabbitMQBus>
+            services.AddTransient<IEventBus, RabbitMQBus>();
         }
     }
 }
